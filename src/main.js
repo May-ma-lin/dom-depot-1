@@ -45,8 +45,8 @@ dom.each(dom.children(t), (n) => dom.style(n, 'color', 'red'));
 
 console.log(dom.index(s2));
 
-const div = dom.find('#test2>.red')[0];
-console.log(dom.style(div, 'color', 'red'));
+const div2 = dom.find('#test2>.red')[0];
+console.log(dom.style(div2, 'color', 'red'));
 
 // 获取多个 div.red 元素
 const divList = dom.find('.red');
